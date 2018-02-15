@@ -13,6 +13,8 @@ int main()
     //si queremos hacer un cast
     media=(double) sum/ (double)cuenta;
     printf("valor de la media es: %f\n", media);
+    
+    printf("hola, hice cambios");
 
 
 
