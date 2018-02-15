@@ -5,7 +5,7 @@
 
 % banderas  ancho   precision   tamaño   caracter
 
-# formato hexadecimal
+# formato octal y hexadecimal
 printf  
 ******************/
 int main()
@@ -27,39 +27,63 @@ int main()
     // printf("%d\n", hexadecimal);
 
 
-    int resultado;
+//     int resultado;
     
-    // resultado=printf("%c\n",caracter);
-    // printf("%d\n",resultado);
+//     // resultado=printf("%c\n",caracter);
+//     // printf("%d\n",resultado);
 
-    // resultado=   printf("%s\n",cadena);
-    // printf("%d\n", resultado);
+//     // resultado=   printf("%s\n",cadena);
+//     // printf("%d\n", resultado);
 
-    // puts(cadena);
-    // putchar(caracter);
-
-
-    //variables de punto flotante
-    // printf("%e\n",1234567.89);
-    // printf("%e\n", +1234567.89);
-    // printf("%e\n", -1234567.89);
-    // printf("%E\n",1234567.89);
-    // printf("%.2f\n",1234567.89);
-    // printf("%g\n",1234567.89);
-    // printf("%G\n",1234567.89);
-    
+//     // puts(cadena);
+//     // putchar(caracter);
 
 
-
-    printf("%04d\n",1); //para rellenar el ancho del campo cuando no hay espacio 
-    printf("%+4d\n",12);   //+ hace que agrega el signo al numero (+positivo, - negativo) 
-    printf("%4d\n",123);    
-    printf("%4d\n",1234);
-    printf("%4d\n",12345);
-    
+//     //variables de punto flotante
+//     // printf("%e\n",1234567.89);
+//     // printf("%e\n", +1234567.89);
+//     // printf("%e\n", -1234567.89);
+//     // printf("%E\n",1234567.89);
+//     // printf("%.2f\n",1234567.89);
+//     // printf("%g\n",1234567.89);
+//     // printf("%G\n",1234567.89);
     
 
 
+
+//     printf("%04d\n",1); //para rellenar el ancho del campo cuando no hay espacio 
+//     printf("%+4d\n",12);   //+ hace que agrega el signo al numero (+positivo, - negativo) 
+//     printf("%4d\n",123);    
+//     printf("%4d\n",1234);
+//     printf("%4d\n",12345);
+//     printf("%4.5d\n",1);//precision de digitos a desplegar en la pantalla SOLO A ENTEROS
+
+//     printf("%.5s\n",cadena); //el numero maximo a imprimir en pantalla //tambien imprime el espacio  (no a caracteres)
+    
+//     //printf("%*.*d\n",4,5,1);//imprimir variables 
+
+//     int ancho=4, precision=5;
+//     printf("%*.*d\n",ancho,precision,1);//imprimir variables 
+//     /*puede ser asi
+//     %*d 
+//     %.*d
+//     %*.*d
+// */
+
+
+// /*justificacion de margenes*/
+// printf("%-4d\n",1); //para rellenar el ancho del campo cuando no hay espacio 
+//     printf("%-4d\n",12);   //+ hace que agrega el signo al numero (+positivo, - negativo) 
+//     printf("%-4d\n",123);    
+//     printf("%-4d\n",1234);
+//     printf("%-4d\n",12345);
+//     printf("%-4.5d\n",1);
+
+//     printf("%-4d%-4d\n",123, 456);
+
+    int cuenta;
+    printf("%s: %nlaura\n", "hola", &cuenta);
+    printf("%*s%s", cuenta, "", "pepe");
 
     /*puts=> imprimir cadenas 
     puts("Ingresa valores enteros");*/
