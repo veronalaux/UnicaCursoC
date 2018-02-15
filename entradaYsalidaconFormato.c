@@ -14,7 +14,13 @@ int main()
 
     printf("%d\n", entero_muy_muy_largo);
     printf("%lld\n", entero_muy_muy_largo);
+    printf("%o\n", octal);
+    printf("%x\n", hexadecimal);
+    printf("%X\n", hexadecimal);
+    printf("%d\n", hexadecimal);
 
+    
+    
 
 
 
