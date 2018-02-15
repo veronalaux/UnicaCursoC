@@ -17,18 +17,24 @@ int main()
 
     int entero, octal, hexadecimal;
 
-    puts("ingresa un entero");
-    scanf("%d", &entero);
+    // puts("ingresa un entero");
+    // scanf("%d", &entero);
 
-    puts("ingresa un entero base octal");
-    scanf("%i", &octal);
+    // puts("ingresa un entero base octal");
+    // scanf("%i", &octal);
 
-    puts("ingresa un entero base hexadecimal");
-    scanf("%i", &hexadecimal);
+    // puts("ingresa un entero base hexadecimal");
+    // scanf("%i", &hexadecimal);
+
+
+    puts("Ingresa decimal, octal y hexadecimal");
+    int resultado= scanf("%d%o%x", &entero, &octal, &hexadecimal);
+
+    printf("%d\n", resultado);
 
     printf("Entero: %d\n", entero);
     printf("Entero: %#o\n", octal);
-    printf("Entero: %#x\n", hexadecimal);
+    printf("Entero: %#x\n", hexadecimal); //si le dejamos la d, tomara como entero en base 10
 
     return EXIT_SUCCESS;
 }
